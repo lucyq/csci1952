@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title> - </title>
+  <meta property="og:title" content=" - " />
+  <meta name="twitter:title" content=" - " />
+  <meta name="description" content="Algorithms for the People (CS 1952V) Lecture: 10:30-11:50am, Tu/Th
+Instructors: Kweku Kwegyir-Aggrey, Julia Netter, Lucy Qin
+Office hours: by appointment
+Course Description: Computer science has transformed every aspect of society, including communication, transportation, commerce, finance, and health. The revolution enabled by computing has been extraordinarily valuable. The largest tech companies generate almost a trillion dollars a year and employ millions of people. But technology does not affect everyone in the same way.">
+  <meta property="og:description" content="Algorithms for the People (CS 1952V) Lecture: 10:30-11:50am, Tu/Th
+Instructors: Kweku Kwegyir-Aggrey, Julia Netter, Lucy Qin
+Office hours: by appointment
+Course Description: Computer science has transformed every aspect of society, including communication, transportation, commerce, finance, and health. The revolution enabled by computing has been extraordinarily valuable. The largest tech companies generate almost a trillion dollars a year and employ millions of people. But technology does not affect everyone in the same way.">
+  <meta name="twitter:description" content="Algorithms for the People (CS 1952V) Lecture: 10:30-11:50am, Tu/Th
+
+  Instructors: Kweku Kwegyir-Aggrey, Julia Netter, Lucy Qin
+  Office hours: by appointment
+  Course Description: Computer science has transformed every aspect of society, including communication, transportation, commerce, finance, and health. The revolution enabled by computing has been extraordinarily valuable. The largest tech companies generate almost a trillion dollars a year and employ millions of people. But technology does not affect everyone in the same way.">
+  <meta name="author" content=""/>
+  <meta property="og:site_name" content="" />
+  <meta property="og:url" content="https://cs.brown.edu/2952v/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.72.0" />
+  <link rel="stylesheet" href="https://cs.brown.edu/people/seny/css/style.css" media="all" />
+  <link rel="stylesheet" href="https://cs.brown.edu/people/seny/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="https://cs.brown.edu/people/seny/css/custom.css" media="all" />
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- <header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://cs.brown.edu/people/seny/"></a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-home"><a href="https://cs.brown.edu/people/seny/index.html" title="Home">Home</a></li>
+      <li class="site-navi-item-papers"><a href="https://cs.brown.edu/people/seny/papers/" title="Papers">Papers</a></li>
+      <li class="site-navi-item-talks"><a href="https://cs.brown.edu/people/seny/talks/" title="Talks">Talks</a></li>
+      <li class="site-navi-item-lab"><a href="http://esl.cs.brown.edu" title="Lab">Lab</a></li>
+      <li class="site-navi-item-blog"><a href="http://esl.cs.brown.edu/blog" title="Blog">Blog</a></li>
+    </ul>
+  </nav>
+</header> -->
+<!-- <hr class="site-header-bottom"> -->
+
+    
+    <div class="main" role="main">
+
+	<article class="article">
+	    <h1 id="algorithms-for-the-people-cs-2952v">Algorithms for the People (CS 1952V)</h1>
+<!-- <p><strong>Lecture:</strong> 10:30-11:50am, Tu/Th</p> -->
+<p><strong>Instructors:</strong> Kweku Kwegyir-Aggrey, Julia Netter, Lucy Qin</p>
+
+<!-- Instructors: 
+Office hours: by appointment
+Course Description: Computer science has transformed every aspect of society, including communication, transportation, commerce, finance, and health. The revolution enabled by computing has been extraordinarily valuable. The largest tech companies generate almost a trillion dollars a year and employ millions of people. But technology does not affect everyone in the same way."> -->
+
+<p><strong>Office hours:</strong> by appointment</p>
+<h1 id="course-description">Course Description</h1>
+<p>Computer science has transformed every aspect of society, including communication, transportation, commerce, finance, and health. The revolution enabled by computing has been extraordinarily valuable. The largest tech companies generate almost a trillion dollars a year and employ millions of people. But technology does not affect everyone in the same way. In this seminar, we will examine how new technologies are affecting marginalized communities.</p>
+<p>This year&rsquo;s themes will include</p>
+<ul>
+<li>Surveillance</li>
+<li>Technical needs of specific user groups</li>
+<li>Machine Learning</li>
+</ul>
+<p>Syllabus: <a href="https://cs.brown.edu/people/seny/syllabus/missive-aftp-20.pdf">pdf</a></p>
+<h1 id="pre-requisites">Pre-Requisites</h1>
+<p>Graduate students: none</p>
+<p>Undergrad CS concentrators: either 30, 32 or 33</p>
+<p>Undergrad non-CS concentrators: email professor</p>
+<h1 id="course-schedule-preliminary">Course Schedule (preliminary)</h1>
+<table>
+<thead>
+<tr>
+<th>Dates</th>
+<th>Topic</th>
+<th>Readings</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sep 10</td>
+<td>Overview</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sep 15</td>
+<td>Responsibility</td>
+<td>P. Rogaway. <a href="https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf">The Moral Character of Cryptographic Work</a> <br><br> Y. Zak. <a href="https://www.youtube.com/watch?v=R2mov9dBfSY">Supporting unmanned aerial systems operations using ground-life visualizations</a> (make sure to watch the Q&amp;A)</td>
+<td></td>
+</tr>
+<tr>
+<td>Sep 17</td>
+<td>Protests</td>
+<td>S. Biddle (The Intercept). <a href="https://theintercept.com/2020/07/09/twitter-dataminr-police-spy-surveillance-black-lives-matter-protests/?utm_campaign=theintercept&amp;utm_medium=social&amp;utm_source=twitter">Police Surveilled George Floyd Protests with  Help fom Twitter-Affiliated Startup DATAMINR</a> <br><br> R. Heilweil (Vox). <a href="https://www.vox.com/recode/2020/5/29/21274828/drone-minneapolis-protests-predator-surveillance-police">Members of Congress want to know more about law enforcement’s surveillance of protesters</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Sep 22</td>
+<td>Protests</td>
+<td>S. Morrison, A. Estes (Vox).<a href="https://www.vox.com/recode/2020/6/12/21284113/police-protests-surveillance-instagram-washington-dc">How protesters are turning the tables on police surveillance</a></td>
+<td>Project list out</td>
+</tr>
+<tr>
+<td>Sep 24</td>
+<td>Migration</td>
+
+<td>S. Ghaffary (Vox). <a href="https://www.vox.com/recode/2019/5/16/18511583/smart-border-wall-drones-sensors-ai">The “smarter” wall: How drones, sensors, and AI are patrolling the border</a> <br><br> B. Tau, M. Hackman (WSJ). <a href="https://www.wsj.com/articles/federal-agencies-use-cellphone-location-data-for-immigration-enforcement-11581078600">Federal Agencies Use Cellphone Location Data for Immigration Enforcement</a> (watch video)</td>
+<td></td>
+</tr>
+<tr>
+<td>Sep 29</td>
+<td>Migration</td>
+
+<td>S. Chambers, G. Boyce, S. Launius, A. Dinsmore. <a href="https://www.tandfonline.com/doi/abs/10.1080/08865655.2019.1570861">Mortality, Surveillance and the Tertiary Funnel Effect on the US-Mexico Border</a></td>
+<td>Projects chosen</td>
+</tr>
+<tr>
+<td>Oct 1</td>
+<td>Geo-Fencing</td>
+<td>SCOTUS. <a href="https://www.supremecourt.gov/opinions/17pdf/16-402_h315.pdf">Carpenter v US</a> (read until p. 23) <br><br> O. Kerr. <a href="https://www.lawfareblog.com/understanding-supreme-courts-carpenter-decision">Understanding the Supreme Court’s Carpenter Decision</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 6</td>
+<td>Geo-Fencing</td>
+<td>C. Levinson (Protocol). <a href="https://www.protocol.com/government-buying-location-data">Through apps, not warrants, ‘Locate X’ allows federal law enforcement to track phones</a> <br><br> C. Maloney, E. Warren, R. Wyden, M. DeSaulnier. <a href="https://oversight.house.gov/sites/democrats.oversight.house.gov/files/2020-06-24.CBM%20Warren%20Wyden%20DeSaulnie%20to%20Venntel%20re%20Mobile%20Phone%20Location%20Data.pdf">Oversight Committee Letter to Venntel</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 8</td>
+<td>Geo-Fencing</td>
+<td>All Things Considered (NPR). <a href="https://www.npr.org/2020/02/06/803508851/how-political-campaigns-are-using-geofencing-technology-to-target-catholics-at-m">How Political Campaigns Are Using &lsquo;Geofencing&rsquo; Technology To Target Catholics At Mass</a> (podcast) <br><br> C. Woodward, H. Bray (Boston Globe). <a href="https://www.bostonglobe.com/business/2017/04/04/healey-halts-digital-ads-targeted-women-reproductive-clinics/AoyPUG8u9hq9bJUAKC5gZN/story.html">A company sent anti-abortion ads by phone</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 13</td>
+<td>Policing</td>
+<td>K. Roberson, C. Khoo, Y. Song. <a href="https://citizenlab.ca/wp-content/uploads/2020/09/To-Surveil-and-Predict.pdf">To Surveil and Predict </a></td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 15</td>
+<td>Policing</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 20</td>
+<td>Policing</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 22</td>
+<td>Human Rights</td>
+<td>K. Sandvik, N. Raymond. <a href="https://scholarcommons.usf.edu/cgi/viewcontent.cgi?article=1454&amp;context=gsp">Beyond the Protective Effect: Towards a Theory  of Harm for Information Communication Technologies in Mass Atrocity Response</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 27</td>
+<td>Human Rights</td>
+<td>Overview of Myanmar&rsquo;s History <br><br>  T. McLaughlin (Wired). <a href="https://www.wired.com/story/how-facebooks-rise-fueled-chaos-and-confusion-in-myanmar/">How Facebook’s Rise Fueled Chaos and Confusion in Myanmar</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 29</td>
+<td>Human Rights</td>
+<td>Business for Social Responsibility. <a href="https://about.fb.com/wp-content/uploads/2018/11/bsr-facebook-myanmar-hria_final.pdf">Human Rights Impact Assessment: Facebook in Myanmar</a> <br><br> R. Frankel. <a href="https://about.fb.com/news/2020/08/preparing-for-myanmars-2020-election/">How Facebook Is Preparing for Myanmar’s 2020 Election</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Nov 3</td>
+<td>US Election</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Nov 5</td>
+<td>TBD</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Nov 10</td>
+<td>Fintech</td>
+<td>A. Katz (The Intercept). <a href="https://theintercept.com/2020/08/30/fintech-debt-personal-loans-economic-crisis/">The Fintech Debt Trap</a> <br><br> S. Kamara, <a href="http://cs.brown.edu/~seny/pubs/fsc-testimony.pdf">Statement to the House Financial Services Committee</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Nov 12</td>
+<td>Fintech</td>
+<td>Z. Amsden et al. <a href="https://developers.libra.org/docs/assets/papers/the-libra-blockchain/2020-05-26.pdf">The Libra Blockchain</a> <br><br> Libra Association Members. <a href="https://libra.org/en-US/wp-content/uploads/sites/23/2020/04/Libra_WhitePaperV2_April2020.pdf">The Libra Whitepaper</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Nov 17</td>
+<td>Fintech</td>
+<td>American for Financial Reform and Demand Progress. <a href="https://ourfinancialsecurity.org/wp-content/uploads/2020/06/Libra-Black-Paper-FINAL-2.pdf">Banking on Surveillance: The Libra Black Paper</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Nov 19</td>
+<td>Project presentations</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Nov 24</td>
+<td>Project presentations</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Nov 26</td>
+<td>Thanksgiving</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dec 1</td>
+<td>Reading period</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dec 3</td>
+<td>Reading period</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+	</article>
+
+    </div>
+
+
+
+<div class="site-footer">
+
+<script src="https://cs.brown.edu/people/seny/js/script.js"></script>
+<script src="https://cs.brown.edu/people/seny/js/custom.js"></script>
+
+
+</body>
+</html>
